@@ -139,7 +139,7 @@ Build an interactive dashboard (e.g., Streamlit or Power BI).
 Add email automation for alerts on new job posts.
 
 📁 Project Structure:
-<p align="center"> <img src="Project Structure.png" alt="Project Structure" width="600"/> </p>
+<p align="Left"> <img src="Project Structure.png" alt="Project Structure" width="600"/> </p>
 
 ⭐ Support
 
