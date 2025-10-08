@@ -1,5 +1,5 @@
 # LinkedIn-Job-Scraper
-
+<p align="center"> <img src="images/login_page.png" alt="Main" width="600"/> </p>
 ## 🧾 About the Project
 The **LinkedIn Job Scraper** is an automated Python-based tool designed to simplify and speed up the job search process by extracting job-related data directly from LinkedIn posts.
 
