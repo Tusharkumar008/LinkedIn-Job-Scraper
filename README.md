@@ -139,13 +139,7 @@ Build an interactive dashboard (e.g., Streamlit or Power BI).
 Add email automation for alerts on new job posts.
 
 📁 Project Structure:
-linkedin-job-scraper/
-│
-├── linkedin_scraper.py       # Main Python script
-├── requirements.txt          # Dependencies file
-├── linkedin_jobs.xlsx        # Auto-generated Excel file
-├── README.md                 # Documentation
-└── chromedriver.exe          # Chrome WebDriver
+<p align="center"> <img src="Project Structure.png" alt="Project Structure" width="600"/> </p>
 
 ⭐ Support
 
