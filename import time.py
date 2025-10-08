@@ -13,17 +13,34 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 # -------------------- CONFIGURATION --------------------
-TIME_FILTER = 7  # 7 days or 21 for 3 weeks
-SCROLL_COUNT = 50  # How many times to scroll down
-
-# ASK USER FOR COMPANY NAME
+# ASK USER FOR INPUTS
 print("=" * 60)
 print("LinkedIn Company Mention Scraper")
 print("=" * 60)
-MENTION = input("Enter the company name to search for: ").strip()
 
+MENTION = input("Enter the company name to search for: ").strip()
 if not MENTION:
     print("Error: Company name cannot be empty!")
+    exit()
+
+time_filter_input = input("Enter the number of days to filter (e.g., 7 for last 7 days): ").strip()
+try:
+    TIME_FILTER = int(time_filter_input)
+    if TIME_FILTER <= 0:
+        print("Error: Number of days must be positive!")
+        exit()
+except ValueError:
+    print("Error: Please enter a valid number for days!")
+    exit()
+
+scroll_count_input = input("Enter the number of times to scroll (e.g., 50): ").strip()
+try:
+    SCROLL_COUNT = int(scroll_count_input)
+    if SCROLL_COUNT <= 0:
+        print("Error: Scroll count must be positive!")
+        exit()
+except ValueError:
+    print("Error: Please enter a valid number for scroll count!")
     exit()
 
 print(f"\nSearching for mentions of: {MENTION}")
