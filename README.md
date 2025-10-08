@@ -53,7 +53,7 @@ Download the correct version for your Chrome browser:
 
 Place chromedriver.exe in your project folder or set its path in your environment variables.
 
-Run the Script :- python linkedin_scraper.py
+Run the Script :- [Open in web](python app.py)
 
 Language: Python
 
